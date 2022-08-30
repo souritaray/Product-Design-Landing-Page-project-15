@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111111;
+    font-family: "Montserrat";
+    color:#fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color:#fff;
+    font-weight: bold;
+}
+.nav-items{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width:600px;
+}
+nav div .fa-bars{
+    display: none;
+}
+.nav-items li{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.nav-items li select{
+    text-transform: uppercase;
+    color:#fff;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+select{
+    appearance: none;
+    -webkit-appearance:none ;
+    -moz-appearance: none ;
+    padding-right: 15px;  
+} 
+.fa-caret-down{
+    font-size: 15px;
+    color:#fff;
+}
+
+.person{
+    display: flex;
+    margin-left: 200px;
+}
+.personImg img{
+    width:400px;
+}
+.personInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.personInfo h5{
+    font-weight: bold;
+    color: #c91b28;
+}
+.personInfo h1{
+    font-weight: bolder;
+    color:#fff;
+    margin-top: 20px;
+}
+.personInfo p{
+    width:495px;
+    color:#fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size:15px;
+}
+.aboutme{
+    height:40px;
+    width:120px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#fff;
+    background-color: #c91b28;
+    border: none;
+}
+.span{
+    background: #2c2b2b;
+    z-index: -1;
+    position: absolute;
+    width: 650px;
+height: 800px;
+left: -1px;
+top: 477px;
+}
+.three-box{
+    display: grid;
+    grid-template-columns: repeat(3,0fr);
+    gap: 30px;
+    margin-top: 100px;
+    color:#fff;
+    margin-left: 200px;
+}
+.box-img p{
+    font-size: 15px;
+    width:200px;
+    margin: 20px 0;
+}
+.box-img h3{
+    margin-top: 20px;
+}
+.box-img img{
+    height:60px;
+    width:60px;
+}
+.box-two .box-img img{
+    width:55px;
+}
+.red-text{
+    color: #c91b28;
+    text-transform: uppercase;
+}
+.box-two .box-img h5{
+    text-transform: uppercase;
+}
+.box-one, .box-three{
+    background-color: #272626;
+}
+.box-two{
+    background-color: #c91b28;
+}
+.box{
+    padding:40px;
+}
+.box-part-two{
+    display: flex;
+    gap:30px;
+    margin-top: 80px;
+    margin-left: 225px;
+}
+.box-part-two h1{
+    color:#c91b28;
+}
+.right{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+}
+.small-box{
+    background-color: #272626;
+    padding: 10px 25px;
+    text-align: center;
+    width:280px;
+    height:100px;
+}
+.small-box h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #EF4040;
+}
+
+.small-box p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exp h1 {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 80px;
+    color: #EF4040;
+    text-align: center;
+}
+
+.exp p {
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.project{
+    margin-top: 150px;
+    margin-left: 200px;
+    display: flex;
+    gap:384px;
+}
+.title h1{
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.title p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.viewall button{
+    height:40px;
+    width:100px;
+    background-color: #c91b28;
+    color:#fff;
+    text-transform:uppercase;
+    border:none;
+}
+.project-card{
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns: repeat(2,0fr);
+    gap:50px;
+    margin-left: 200px;
+}
+.card-image img{
+    width:350px;
+}
+.card-image{
+    background-color: #2c2b2b;
+    padding: 25px;
+}
+.star{
+    height:251.36px;
+    width:400px;
+}
+.star img{
+    height: 100%;
+}
+.card h5{
+    text-transform: uppercase;
+    color:#c91b28;
+    margin-top: 10px;
+}
+.card h3{
+    margin-top: 10px;
+}
+.end-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 50px;
+    height: 300px;
+    background: #272626;
+    width: 900px;
+    margin-left: 200px;
+}
+
+.end-box-title {
+    padding-left: 51px;
+}
+
+.end-box h3{
+    font-weight: 700;
+    font-size: 40px;
+    width:500px;
+    margin-bottom: 30px;
+}
+
+.end-box p {
+    font-weight: 200;
+font-size: 12px;
+}
+
+.contact{
+text-align: center;
+}
+
+.contact button{
+    padding: 15px 30px;
+    background: #FF3343;
+    color: #F5F5F5;
+    border:none;
+    text-transform: uppercase;
+}
+
+.end-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 60px auto 30px 70px;
+}
+
+.end-navbar li {
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+footer {
+    background-color: #272626;
+}
+
+.footer {
+    max-width: 80%;
+    margin : 0 auto;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+button , li{
+    cursor: pointer;
+}
+@media only screen and (max-width:590px){
+    body{
+        overflow-x: hidden;
+    }
+    nav div .fa-bars{
+        display: block;
+        font-size: 25px;
+    }
+    .nav-items{
+        display: none;
+    }
+    .person{
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-top: 100px;
+    }
+    .personImg img{
+        width:300px;
+    }
+    .personInfo{
+        width:280px;
+    }
+    .personInfo p{
+        width:250px;
+    }
+    .three-box{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-part-two{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .right{
+        width:280px;
+        display: flex;
+        flex-direction: column;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        justify-content: center;
+        align-items: center;
+        gap:40px;
+        margin-top: 40px;
+    }
+    .project-card{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width:300px;
+    }
+    .card-image img{
+        width:250px;
+    }
+    .end-box{
+        width:300px;
+       display: flex;
+         flex-direction: column;
+        margin-left: auto;
+        margin-right:auto ;
+        justify-content: center;
+        align-items: center;
+    }
+    .end-box-title{
+        width:250px;
+        padding-left: 12px;
+    }
+    .end-box-title h3{
+        font-size: 25px;
+        width:250px;
+        display: flex;
+         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .star {
+        width:300px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+    }
+    .end-navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+}
+@media only screen and (min-width:595px) and (max-width:1100px){
+    .nav-items{
+        margin-left: 30px;
+    }
+    .person{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+    }
+    .three-box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+    }
+    .box-part-two{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+    }
+    .project{
+        display: flex;
+        flex-wrap: wrap;
+        gap:30px;
+    }
+    .project-card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+    }
+    .end-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        gap:30px;
+    }
+}
