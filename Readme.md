@@ -9,14 +9,14 @@ This is a very stylish and trendy web page design made using HTML and CSS only. 
 
 ## Demo
 
-![output](mobile%20view.png)
+![output](output.png)
 
 
 
 
 ## Mobile Layout
 
-![mobile](output.png)
+![mobile](mobile%20view.png)
 
 
 
